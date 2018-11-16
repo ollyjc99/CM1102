@@ -1,16 +1,14 @@
 h1 {
-  color : red
-  border : thin groove;
-  text-align:center;
-}
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #cebc4a;
+    background-color: #573B8D;
+    border: thin groove #9baab2;
+  }
 
 p {
-  margin-left: 10%;
-  border: ridge;
-  background-color: #ee8822;
+    font-family: verdana;
+    text-align: center;
 }
-
-h1 { font-family: arial;
-      color: blue; }
 ul, ol { font-family: verdana;
           color: red;}
