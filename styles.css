@@ -3,8 +3,14 @@ h1 {
   border : thin groove;
   text-align:center;
 }
+
 p {
   margin-left: 10%;
   border: ridge;
   background-color: #ee8822;
 }
+
+h1 { font-family: arial;
+      color: blue; }
+ul, ol { font-family: verdana;
+          color: red;}
