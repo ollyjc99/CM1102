@@ -1,0 +1,10 @@
+h1 {
+  color : red
+  border : thin groove;
+  text-align:center;
+}
+p {
+  margin-left: 10%;
+  border: ridge;
+  background-color: #ee8822;
+}
