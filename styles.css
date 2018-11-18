@@ -1,14 +1,21 @@
 h1 {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     color: #cebc4a;
     background-color: #573B8D;
     border: thin groove #9baab2;
+    text-align: center;
   }
 
 p {
     font-family: verdana;
-    text-align: center;
+    margin-left: 2%;
 }
 ul, ol { font-family: verdana;
-          color: red;}
+
+        }
+table {
+    font-family: verdana;
+    text-align: center;
+
+}
