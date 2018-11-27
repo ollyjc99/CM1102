@@ -10,25 +10,27 @@ h1 {
 p {
     font-family: verdana;
     margin-left: 2%;
-}
+  }
 ul, ol { font-family: verdana;
-
-        }
+  padding-left: 0;
+}
+ul li {
+  border-left : 2px solid red;
+  padding : 4px;
+  list-style : none;
+  display : inline;
+}
 table {
     font-family: verdana;
     text-align: center;
-
-}
+  }
 dt {
-  margin-left: 2%
-
-
+  margin-left: 2%;
 }
 nav {
-  width: 12em;
-  border-right: 1px solid #000;
-  padding: 0 0 1em 0;
+  width: 285px;
   font-family: verdana;
   background-color: #90bade;
   color: #333;
+  border: 1px solid black; padding: 4px;
 }
