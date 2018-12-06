@@ -8,7 +8,31 @@
 <body>
 
   <h1> Finding Easter </h1>
+  <form action="cgi-bin/easter.py" method="GET">
 
+  <fieldset>
+  <legend>Easter</legend>
+
+
+  <p>
+  <label for="datepicker">Enter a year</label>
+  <input type="text" name="datepicker" size="30" required><br>
+
+  Which format would you prefer to be displayed <br>
+  <input type="radio" name="datepicker" id="num" value="num" required>
+  <label for="num"></label>Numerically e.g. dd/mm/year<br>
+
+  <input type="radio" name="datepicker" id="verb" value="verb">
+  <label for="verb"></label>Verbosely e.g. 25<sup>th</sup> of December 2018<br>
+
+  <input type="radio" name="datepicker" id="both" value="both">
+  <label for="both">Or both</label> <br>
+
+  <input type="submit" value="Submit">
+  </p>
+  </fieldset>
+
+  </form>
 
 </body>
 </html>

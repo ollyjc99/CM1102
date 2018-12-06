@@ -9,7 +9,7 @@ h1 {
     border: thin groove #99aab5;
     text-align: center;
 }
-p {
+p, legend {
     font-family: verdana, verdana sans-serif;
     margin-left: 2%;
     margin-right: 2%;
