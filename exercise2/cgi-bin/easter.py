@@ -3,7 +3,7 @@ import cgi, cgitb
 cgitb.enable() # displays any errors
 form = cgi.FieldStorage()
 x = form.getvalue("datepicker")
-a = x % 19
+a = int(x) % 19
 b = x // 100
 c = x % 100
 d = b // 4
